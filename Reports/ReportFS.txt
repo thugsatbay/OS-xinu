@@ -1,0 +1,12 @@
+We learned implementing Filesystems using inodes and directory structure.
+
+Team Contribution
+
+Gurleen - 
+int fs_open(char *filename, int flags);
+int fs_close(int fd);
+int fs_create(char *filename, int mode);
+Sudhanshu - 
+int fs_read(int fd, void *buf, int nbytes);
+int fs_write(int fd, void *buf, int nbytes);
+int fs_seek(int fd, int offset);
